@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <title></title>
-    <link rel="stylesheet" href="../styles/navbar.css">
-    <link rel="stylesheet" href="../styles/wigdets.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/wigdets.css">
     <link rel="shortcut icon" href='favicon-32x32.png' type=favicon>
     <link rel='icon' href="favicon-32x32.png" type="image/x-icon"  >
-    <script src="../items/pageTitle.js"></script>
+    <script src="./items/pageTitle.js"></script>
+    <link rel="stylesheet" href="./styles/contactus.css">
 </head>
-
 <body style="background-color:#34495e;" >
     <div id="MyClockDisplay"  class="clock" onload="showTime()"></div>
     <ul>
@@ -20,9 +20,41 @@
       </ul>
       <script src="../items/clock.js"></script>
 
+      <h1 class="sporthead">Hey there!</h1>
+      <p class="sporthead">If you need any help contact us through this page and well get back to you <br>
+    as soon as we can ! 😃</p>
 
 
+      <!--Not responsive yet neeeds backend work-->
+      <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="fname">Your Email adress</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
 
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Greece</option>
+            <option value="canada">Poland</option>
+            <option value="usa">USA</option>
+            <option value="usa">Russia</option>
+            <option value="usa">United Kingdom</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+      
 </body>
 
 </html>
