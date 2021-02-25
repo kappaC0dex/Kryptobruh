@@ -1,0 +1,41 @@
+.heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: yellowgreen;
+    margin-left: 40%;
+}
+
+#pic{
+    margin-left: 28%;
+    width: 50%;
+
+}
+
+.textbody{
+font-size: 17px;
+color: chocolate;
+margin-left: 5%;
+text-align: center;
+}
+
+.shoutbox{
+    width: 25%;
+    margin-top: 0%;
+
+}
+
+.headbody{
+    color: yellowgreen;
+    margin-left: 50%;
+    font-size: 40px;
+
+
+}
+
+.headbody1{
+    color: yellowgreen;
+    margin-left: 40%;
+    font-size: 20px;
+
+
+
+}
