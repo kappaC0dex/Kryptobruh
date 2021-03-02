@@ -3,12 +3,11 @@
 <title></title>
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/wigdets.css">
-    <link rel="stylesheet" href="./styles/kryptalg.css">
     <link rel="shortcut icon" href='favicon-32x32.png' type=favicon>
     <link rel='icon' href="favicon-32x32.png" type="image/x-icon"  >
     <script src="./items/pageTitle.js"></script>
+    <link rel="stylesheet" href="./styles/contactus.css">
 </head>
-
 <body style="background-color:#34495e;" >
     <div id="MyClockDisplay"  class="clock" onload="showTime()"></div>
     <ul>
@@ -19,20 +18,25 @@
         
         <li style="float:right"><a href="contactus.html">Contact</a></li>
       </ul>
-      <script src="./items/clock.js"></script>
+      <script src="../items/clock.js"></script>
 
-      <div class="container">
-          <figure>
-        <img src="./src/SHA256.png" alt="sha256">
-        <div id="txt1">
-        <figcaption><B>Little Knowledge about SHA-256 <br>Hope You like it!</B></figcaption>
-        </div>
-       <a href="./articles/SHA256.html"> <button class="btn"><b>Learn more!</b></button></a>
-       </figure>
-      </div>
+      <h1 class="sporthead">Hey there!</h1>
+      <p class="sporthead">If you need any help contact us through this page and well get back to you <br>
+    as soon as we can ! 😃</p>
 
 
+      <!--Not responsive yet neeeds backend work-->
+<main>
+  <form class="contact-form" action="contact.php" method="post">
+    <input type="text" name="name" placeholder="Full name">
+    <input type="text" name="mail" placeholder="Your e-mail">
+    <input type="text" name="Subject" placeholder="Subject">
+     <textarea name="message" placeholder="Message"> </textarea>
+     <button type="submit" name="submit">SEND MAIL</button>
 
+
+    </form>
+  </main> 
 </body>
 
 </html>
