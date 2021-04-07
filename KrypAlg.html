@@ -1,33 +1,26 @@
 <!DOCTYPE html>
 <html>
-<title></title>
-<link rel="shortcut icon" href='./src/favicon.jpg' type=favicon>
-<link rel='icon' href="./src/favicon.jpg" type="image/x-icon"  >
-    <link rel="stylesheet" href="./styles/navbar.css">
-    <link rel="stylesheet" href="./styles/wigdets.css">
-    <link rel="stylesheet" href="./styles/kryptalg.css">
-    <link rel="shortcut icon" href='favicon-32x32.png' type=favicon>
-    <link rel='icon' href="favicon-32x32.png" type="image/x-icon"  >
-    <script src="./items/pageTitle.js"></script>
+<title>|</title>
+
+    
+    <link rel="stylesheet" href="/styles/wigdets.css">
+    <link rel="stylesheet" href="/styles/kryptalg.css">
+     <!-- MUST INCLUDE USE THIS IS JQUERY. REF './items/includeNavbar.js' -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <script src='/items/includeNavbar.js' ></script>
 </head>
 
 <body style="background-color:#34495e;" >
-    <div id="MyClockDisplay"  class="clock" onload="showTime()"></div>
-    <ul>
-        
-        <li><a class="active" href="homepage.html">Home</a></li>
-        <li><a href="KrypAlg.html">KrypAlg</a></li>
-        <li><a href="about.html">About</a></li>
-        
-
-      </ul>
-      <script src="./items/clock.js"></script>
+    
+   <!-- THE IMPORT DIV WITH #INCLUDED -->
+    <div id="includedContent"></div>
+      
 
       <div class="container">
           <figure>
         <img src="./src/SHA256.png" alt="sha256">
         <div id="txt1">
-        <figcaption><B>Little Knowledge about SHA-256 <br>Hope You like it!</B></figcaption>
+        <figcaption><b>Little Knowledge about SHA-256 <br>Hope You like it!</b></figcaption>
         </div>
        <a href="./articles/SHA256.html"> <button class="btn"><b>Learn more!</b></button></a>
        </figure>

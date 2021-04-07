@@ -1,0 +1,96 @@
+
+.body {
+    background-color:#34495e;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.content a{
+    color: white;
+    text-decoration: underline;
+}
+
+.content a:hover{
+   color: rgba(255, 255, 255, 0.418);
+   text-decoration: none;
+}
+
+.welcome {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0px 7rem; 
+    padding-bottom: 40px;
+    border-bottom: 2px white solid;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btcpriceDIV{
+    width: 330px;
+    height:220px;
+    background-color: #1D2330;
+    overflow:hidden;
+    box-sizing: border-box;
+    border: 1px solid #282E3B;
+    border-radius: 4px;
+    text-align: right;
+    line-height:14px;
+    block-size:220px;
+    font-size: 12px;
+    font-feature-settings: normal;
+    text-size-adjust: 100%;
+    box-shadow: inset 0 -20px 0 0 #262B38;
+    padding:1px;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.btcpriceDIVDIV{
+    height:200px;
+    padding:0px;
+    margin:0px;
+    width: 100%;
+}
+
+.btcpriceIFRAME{
+    border:0;
+    margin:0;
+    padding:0;
+    line-height:14px;
+    
+}
+
+.btcpriceDIVDIVDIV{
+    color: #626B7F;
+    line-height: 14px;
+    font-weight: 400;
+    font-size: 11px;
+    box-sizing: border-box;
+    padding: 2px 6px;
+    width: 100%;
+    font-family: Verdana,
+    Tahoma,
+    Arial,
+    sans-serif;
+    
+}
+
+.btcpriceDIVDIVDIV > a{
+    font-weight: 500;
+    color: #626B7F;
+    text-decoration:none;
+    font-size:11px
+}
+
+.crae {
+    
+    color: white;
+}

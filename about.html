@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <link rel="shortcut icon" href='./src/favicon.jpg' type=favicon>
-  <link rel='icon' href="./src/favicon.jpg" type="image/x-icon"  >
-<title></title>
-    <link rel="stylesheet" href="./styles/navbar.css">
+  
+<title>|</title>
+    
     <link rel="stylesheet" href="./styles/wigdets.css">
     <link rel="stylesheet" href="./styles/styles_about.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="shortcut icon" href='favicon-32x32.png' type=favicon>
-    <link rel='icon' href="favicon-32x32.png" type="image/x-icon"  >
-    <script src="./items/pageTitle.js"></script>
+     <!-- MUST INCLUDE USE THIS IS JQUERY. REF './items/includeNavbar.js' -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <script src='/items/includeNavbar.js' ></script>
 </head>
 
 <body style="background-color:#34495e;" >
-    <div id="MyClockDisplay"  class="clock" onload="showTime()"></div>
-    <ul>
-        
-        <li><a class="active" href="homepage.html">Home</a></li>
-        <li><a href="KrypAlg.html">KrypAlg</a></li>
-        <li><a href="about.html">About</a></li>
-              </ul>
-      <script src="./items/clock.js"></script>
+    
+   <!-- THE IMPORT DIV WITH #INCLUDED -->
+    <div id="includedContent"></div>
+      
 
 
 <div class="container">

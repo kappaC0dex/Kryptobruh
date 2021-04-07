@@ -1,26 +1,18 @@
 <!DOCTYPE html>
 <html>
-<title></title>
-<link rel="shortcut icon" href='./src/favicon.jpg' type=favicon>
-<link rel='icon' href="./src/favicon.jpg" type="image/x-icon"  >
-    <link rel="stylesheet" href="./styles/navbar.css">
+<title>|</title>  
     <link rel="stylesheet" href="./styles/wigdets.css">
-    <link rel="shortcut icon" href='favicon-32x32.png' type=favicon>
-    <link rel='icon' href="favicon-32x32.png" type="image/x-icon"  >
-    <script src="./items/pageTitle.js"></script>
-    <link rel="stylesheet" href="./styles/contactus.css">
+    <link rel="stylesheet" href="/styles/contactus.css">
+     <!-- MUST INCLUDE USE THIS IS JQUERY. REF './items/includeNavbar.js' -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+    <script src='/items/includeNavbar.js' ></script>
+</head>
 </head>
 <body style="background-color:#34495e;" >
-    <div id="MyClockDisplay"  class="clock" onload="showTime()"></div>
-    <ul>
-        
-        <li><a class="active" href="homepage.html">Home</a></li>
-        <li><a href="KrypAlg.html">KrypAlg</a></li>
-        <li><a href="about.html">About</a></li>
-        
-        <li style="float:right"><a href="../contact.html">Contact</a></li>
-      </ul>
-      <script src="../items/clock.js"></script>
+    
+    <!-- THE IMPORT DIV WITH #INCLUDED -->
+    <div id="includedContent"></div>
+      
 
       <h1 class="sporthead">Hey there!</h1>
       <p class="sporthead">If you need any help contact us through this page and well get back to you <br>

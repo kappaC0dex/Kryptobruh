@@ -1,57 +1,94 @@
+body {
+  margin: 0;
+}
 
-body{
-    margin: 0;
+
+:root{
+  --widthNormal: 250px;
+  
+}
+
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  font-family: 'Fira Code', monospace;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 10px !important;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-of-type {
+  border-right: none;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgba(17, 17, 17, 0.452);
+}
+
+
+
+.active:hover{
+  background-color: rgba(153, 205, 50, 0.452);
+}
+
+.clock {
+  font-family: 'Fira Code', monospace;
+  /* position: fixed;
+  margin-left: -125px;
+  top: 0;
+  left: 50%; */
+  width: 250px;
+  height: 49px;
+  margin-left: auto;
+  /* transform: translateX(-50%) translateY(-50%); */
+  color: white;
+  font-size: 25px;
+  /* font-family: Orbitron; */
+  letter-spacing: 7px;
+  background-color: #4caf50;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.clock:hover{
+  cursor: default;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  #includedContent * {
+    font-size: smaller;
   }
-  
-  ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
-    }
-    
-    li {
-      float: left;
-      border-right:1px solid #bbb;
-    }
-    
-    li:last-child {
-      border-right: none;
-    }
-    
-    li a {
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-    
-    li a:hover:not(.active) {
-      background-color: #111;
-    }
-    
-    .active {
-      background-color: #4CAF50;
-    }
-  
-  
-    ul {
-      margin-top: 0;
-    }
-    .clock {
-      position: fixed;
-      margin-left: -125px; 
-      top: 0; left: 50%;
-      width: 250px;
-  
-      /* transform: translateX(-50%) translateY(-50%); */
-      color: black;
-      font-size: 25px;
-      font-family: Orbitron;
-      letter-spacing: 7px;
-      background-color: #4CAF50;
-     
-  }
-  
+}
