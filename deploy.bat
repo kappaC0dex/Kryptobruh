@@ -1,4 +1,4 @@
 git add .
-git commit "x"
+git commit -m "x"
 git push origin main
 netlify deploy --prod
