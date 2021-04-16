@@ -1,3 +1,3 @@
-# KryptoBruh[https://kryptobruh.com]
+# (KryptoBruh)[https://kryptobruh.com]
 
 # lol
