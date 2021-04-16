@@ -1,4 +1,6 @@
+git pull origin main
 git add .
 git commit -m "x"
 git push origin main
-netlify deploy --prod
+git push forked main
+@REM netlify deploy --prod
