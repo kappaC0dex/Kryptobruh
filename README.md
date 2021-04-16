@@ -1,3 +1,3 @@
-# school_project
+# KryptoBruh[https://kryptobruh.com]
 
 # lol
